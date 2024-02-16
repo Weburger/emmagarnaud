@@ -27,7 +27,7 @@ define( 'DB_NAME', 'emmagarnaud' );
 define( 'DB_USER', 'root' );
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'pommede5' );
 
 /** Adresse de l’hébergement MySQL. */
 define( 'DB_HOST', 'localhost:3306' );
