@@ -9,3 +9,6 @@
 
     <?php wp_head(); ?>
 </head>
+<body>
+    <h1>Salut les loulous</h1>
+</body>
