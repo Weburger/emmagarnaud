@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf33bc1-4829-45e2-ace3-b0cb5cc9cbe3" name="Changes" comment="" />
+    <list default="true" id="9cf33bc1-4829-45e2-ace3-b0cb5cc9cbe3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,9 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2cRNSfI6VKn9E5g3KiiYLKvJdQe" />
   <component name="ProjectViewState">
