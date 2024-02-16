@@ -10,5 +10,10 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <h1>Salut les loulous</h1>
+    <header>
+        <h2>emma <strong>garnaud</strong></h2>
+        <nav>
+            <?php wp_nav_menu(['theme-location' => 'main-menu']); ?>
+        </nav>
+    </header>
 </body>

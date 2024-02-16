@@ -10,6 +10,17 @@ Twenty Twenty-Two is distributed under the terms of the GNU GPL.
 
 @import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    box-sizing: border-box;
+    margin-top: 0 !important;
+}
+
 body{
     font-family: Gantari;
+}
+
+header{
+    margin: 16px 48px 0;
+    display: flex;
+    justify-content: space-between;
 }
