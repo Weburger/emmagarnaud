@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9cf33bc1-4829-45e2-ace3-b0cb5cc9cbe3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +39,10 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/wamp64/www/emmagarnaud",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
