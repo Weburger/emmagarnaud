@@ -24,10 +24,10 @@
 define( 'DB_NAME', 'emmagarnaud' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'arthur' );
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', 'pommede5' );
+define( 'DB_PASSWORD', 'WolfTeam691' );
 
 /** Adresse de l’hébergement MySQL. */
 define( 'DB_HOST', 'localhost:3306' );
