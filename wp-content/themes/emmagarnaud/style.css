@@ -141,31 +141,32 @@ nav a, nav li{
     transition: 0.5s;
 }
 /*footer*/
-footer{
+footer {
     background-image: url('public/image/garnaudFooter.png');
     background-position: 100% 63%;
     background-repeat: no-repeat;
-    .div1{
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-        ul{
+}
+
+
+footer .div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+        .div1 ul {
             list-style: none;
             font-weight: lighter;
             padding: 0;
-            li{
+        }
+        .div1 ul li{
                 margin-bottom: 1rem;
             }
-        }
+    .div2 ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
     }
-    .div2{
-        ul{
-            list-style: none;
-            display: flex;
-            justify-content: flex-end;
-            li{
+            .div2 ul li{
                 margin-left: 1rem;
             }
-        }
-    }
-}
+
