@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cf33bc1-4829-45e2-ace3-b0cb5cc9cbe3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/public/image/garnaudFooter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

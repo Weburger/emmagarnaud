@@ -140,3 +140,32 @@ nav a, nav li{
     height: 0;
     transition: 0.5s;
 }
+/*footer*/
+footer{
+    background-image: url('public/image/garnaudFooter.png');
+    background-position: 100% 63%;
+    background-repeat: no-repeat;
+    .div1{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        ul{
+            list-style: none;
+            font-weight: lighter;
+            padding: 0;
+            li{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .div2{
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            li{
+                margin-left: 1rem;
+            }
+        }
+    }
+}
