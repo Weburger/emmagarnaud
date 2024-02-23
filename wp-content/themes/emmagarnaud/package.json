@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  },
+  "name": "emmagarnaud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "watch": "babel src -d dist -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
