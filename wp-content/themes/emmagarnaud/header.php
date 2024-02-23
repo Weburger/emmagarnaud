@@ -40,8 +40,8 @@
         
         // Écouteur d'événement pour le mouvement de la souris
         document.addEventListener("mousemove", (event) => {
-            const x = event.clientX;
-            const y = event.clientY;
+            const x = event.pageX;
+            const y = event.pageY;
 
             // Vérifier si la souris touche une image ou un lien
             const isTouchingPicture = isCursorTouchingPicture(x, y);
