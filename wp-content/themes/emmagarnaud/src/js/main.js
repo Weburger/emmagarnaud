@@ -1,5 +1,3 @@
-console.log('script.js');
-
 (function(wp) {
     let addFilter = wp.hooks.addFilter;
     let createHigherOrderComponent = wp.compose.createHigherOrderComponent;
