@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf33bc1-4829-45e2-ace3-b0cb5cc9cbe3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/emmagarnaud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/emmagarnaud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/emmagarnaud/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="9cf33bc1-4829-45e2-ace3-b0cb5cc9cbe3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +77,7 @@
       <workItem from="1708415149717" duration="10644000" />
       <workItem from="1708430304077" duration="34000" />
       <workItem from="1709232175549" duration="610000" />
-      <workItem from="1709280908913" duration="5624000" />
+      <workItem from="1709280908913" duration="6398000" />
     </task>
     <servers />
   </component>
