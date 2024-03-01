@@ -16,9 +16,9 @@
             <?php wp_nav_menu(['theme-location' => 'main-menu']); ?>
         </nav>
     </header>
-    <div id="cursor-container">
+
         <div id="cursor-follower"></div>
-    </div>
+
 
     <script>
         const cursorFollower = document.getElementById("cursor-follower");
@@ -27,6 +27,13 @@
         let prevTimestamp = 0;
         let isCursorMoving = false; // Variable to track cursor movement
         let hoverAnimationActive = false; // Variable to track if hover animation is active
+
+        let verticalScrollPosition = 0; // Initialize the variable to store the scroll position
+
+        window.addEventListener('scroll', function() {
+            verticalScrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            console.log("Vertical scroll position: " + verticalScrollPosition);
+        });
 
         const colors = [
             "#FF3D00",
@@ -37,14 +44,20 @@
             "#4700A2"
         ];
         let isCursorInsideImage = false;
-        
+
         // Écouteur d'événement pour le mouvement de la souris
         document.addEventListener("mousemove", (event) => {
             const x = event.pageX;
             const y = event.pageY;
 
+        // Fonction pour mettre à jour la position de la souris
+            function updateCursorPosition(event) {
+                const x = event.pageX;
+                const y = event.pageY;
+            }
+
             // Vérifier si la souris touche une image ou un lien
-            const isTouchingPicture = isCursorTouchingPicture(x, y);
+            const isTouchingPicture = isCursorTouchingPicture(x, y-verticalScrollPosition);
 
             // Calcul de la vitesse du mouvement
             const speed = calculateSpeed(x, y);
@@ -101,6 +114,8 @@
             prevY = elasticY;
             prevTimestamp = Date.now();
         });
+
+
 
         // Fonction pour calculer la vitesse du mouvement
         function calculateSpeed(newX, newY) {
