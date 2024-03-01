@@ -64,14 +64,16 @@ body{
 }
 
 header{
-    margin: 16px 48px;
+    padding-left: 16px;
+    padding-right: 16px;
     display: flex;
     align-items: center;
+    background-color: white;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 50;
-    width: calc(100% - 96px);
+    width: calc(100% - 32px);
     justify-content: space-between;
 }
 
@@ -87,8 +89,44 @@ nav a, nav li{
     padding-left: 48px;
 }
 
+.presentation, .savoirfaire{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+}
+
+.presentation p, .savoirfaire p{
+    font-weight: 200;
+    margin-bottom: 2em;
+}
+
+.presentation > div{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.savoirfaire img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.presentation figure, .presentation img{
+    height: 150px;
+    object-fit: cover;
+}
+
+.images div{
+    margin: 8px;
+}
+
+.images div div{
+    height: 150px;
+}
+
 .banner p{
-    width: 60%;
     margin-left: 0 !important;
     letter-spacing: 2px;
     font-weight: 600;
