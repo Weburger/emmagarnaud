@@ -23,6 +23,7 @@ add_action( 'init', 'my_register_post_meta' );
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('mon_style', get_template_directory_uri() . '/style.css', false);
     wp_enqueue_style('mon_style2', get_template_directory_uri() . '/src/css/style.css', false);
+    wp_enqueue_style('about_style', get_template_directory_uri() . '/about.css', false);
     wp_enqueue_style('slick1', get_template_directory_uri() . '/node_modules/slick-carousel/slick/slick.css', false);
     wp_enqueue_style('slick2', get_template_directory_uri() . '/node_modules/slick-carousel/slick/slick-theme.css"', false);
     wp_register_script(

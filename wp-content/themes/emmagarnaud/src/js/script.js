@@ -7,6 +7,7 @@ jQuery(document).ready(function($) {
         dots: true,
         infinite: true,
         speed: 300,
+        autoplay: true,
         slidesToShow: 3,
         slidesToScroll: 3,
         centerMode: true,

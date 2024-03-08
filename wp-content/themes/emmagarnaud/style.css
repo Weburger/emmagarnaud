@@ -62,10 +62,20 @@ header{
     background-color: white;
     position: fixed;
     left: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     top: 0;
     z-index: 50;
     width: calc(100% - 32px);
     justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    padding: 0;
+}
+
+header ul li{
+    padding: 1em;
 }
 
 nav a, nav li{
@@ -80,6 +90,35 @@ nav a, nav li{
     padding-left: 48px;
 }
 
+.slick-track img, .slick-track > div{
+    width: 386px;
+    height: 386px;
+    object-fit: cover;
+}
+
+.slick-track > div{
+    margin: 32px;
+    overflow: hidden;
+}
+
+.slick-track h3{
+    font-size: 36px;
+    margin: 0;
+}
+
+.slick-track p{
+    margin: 0;
+}
+
+.slick-center, .slick-center > div{
+    height: 500px !important;
+    transition: all;
+}
+
+.slick-center div span{
+    background-color: #000 !important;
+}
+
 .presentation, .savoirfaire{
     width: 100%;
     display: flex;
@@ -90,6 +129,10 @@ nav a, nav li{
 .presentation p, .savoirfaire p{
     font-weight: 200;
     margin-bottom: 2em;
+}
+
+.presentation h2, .savoirfaire h2{
+    font-size: 32px;
 }
 
 .presentation > div{
@@ -120,17 +163,79 @@ nav a, nav li{
 .banner p{
     margin-left: 0 !important;
     letter-spacing: 2px;
+    width: 75%;
     font-weight: 600;
 }
 
-.cta a{
+.wp-block-separator{
+    width: 50%;
+}
+
+.contacts{
+    width: 50%;
+    margin: 80px auto 0;
+}
+
+.contacts h4{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.contacts p{
+    font-weight: 200;
+    margin: 0;
+}
+
+#wpforms-126.wpforms-block-c50fd87d-3bb0-4862-99ff-5675a0d0f5ea{
+    width: 50%;
+    margin-top: 128px;
+}
+
+.wpforms-field-container{
+    border: 0.5px solid black !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+#wpforms-126.wpforms-block-c50fd87d-3bb0-4862-99ff-5675a0d0f5ea input{
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 0;
+}
+
+div.wpforms-container-full textarea{
+    border: 0;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    max-width: 95%;
+}
+
+.wpforms-container .wpforms-field{
+    padding: 0;
+}
+
+.wpforms-submit-container{
+    text-align: right;
+}
+
+.wpforms-submit-container button[type=submit]{
+    background-color: white !important;
+    color: black !important;
+    font-weight: 200 !important;
+    box-shadow: none !important;
+}
+
+.cta a, .cta2 a{
     color: #2C2929;
     border-radius: 0;
     position: relative;
-    border: 0px solid black !important;
+    font-weight: 200;
+    border: 0 solid white !important;
 }
 
-.cta a:after{
+.cta a:after, .cta2 a:after{
     content:'';
     background-color: none;
     border: 1px solid black;
@@ -144,13 +249,14 @@ nav a, nav li{
     transition: 0.5s;
 }
 
-.cta a:hover::after{
+
+.cta a:hover::after, .cta2 a:hover::after{
     width: 0;
     height: 0;
     transition: 0.5s;
 }
 
-.cta a:before{
+.cta a:before, .cta2 a:before{
     content:'';
     background-color: none;
     border: 1px solid black;
@@ -164,38 +270,57 @@ nav a, nav li{
     transition: 0.5s;
 }
 
-.cta a:hover::before{
+.cta2 a:before{
+    border: 1px solid white !important;
+    border-left-width: 0;
+    border-top-width: 0;
+
+}
+
+.cta a:hover::before, .cta2 a:hover::before{
     width: 0;
     height: 0;
     transition: 0.5s;
 }
 /*footer*/
+
+
+
 footer {
     background-image: url('src/images/garnaudFooter.png');
     background-position: 100% 63%;
+    border-top: 0.5px solid black;
+    margin-top: 160px;
+    padding-top: 64px;
+    padding-right: 1em;
     background-repeat: no-repeat;
 }
 
-
-footer .div1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+footer h2{
+    margin: 0;
+    text-align: right;
+    font-size: 36px;
 }
-        .div1 ul {
-            list-style: none;
-            font-weight: lighter;
-            padding: 0;
-        }
-        .div1 ul li{
-                margin-bottom: 1rem;
-            }
-    .div2 ul {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-    }
-            .div2 ul li{
-                margin-left: 1rem;
-            }
 
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+}
+
+footer div{
+    display: flex;
+    justify-content: right;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+footer div a{
+    padding: 1em;
+}
+
+footer nav a{
+    text-decoration: none;
+    font-weight: 200;
+    padding-bottom: 24px;
+}
