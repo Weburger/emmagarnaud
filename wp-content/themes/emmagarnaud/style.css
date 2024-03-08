@@ -86,6 +86,44 @@ nav a, nav li{
     list-style-type: none;
 }
 
+#sidenav, header svg{
+    display: none;
+}
+
+#sidenav nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sidenav svg{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+    #sidenav{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        width: 100%;
+        transition: 1.5s ease-out;
+        height: 100vh;
+        background-color: white;
+    }
+
+    header svg{
+        display: block;
+    }
+
+    header > nav{
+        display: none;
+    }
+}
+
 .banner{
     padding-left: 48px;
 }
