@@ -158,11 +158,33 @@ nav a, nav li{
 }
 
 .slick-active:not(.slick-current) {
-    transform: scale(0.8);
+    transform: scale(0.75);
 }
 
 .slick-slide{
     transition: all 0.5s;
+}
+
+.wp-block-cover__background{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.wp-block-cover__inner-container{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.slick-slide:hover .wp-block-cover__inner-container{
+    visibility: visible;
+    opacity: 1;
+}
+
+.slick-slide:hover .wp-block-cover__background{
+    visibility: visible;
+    opacity: 0.5;
 }
 
 .presentation, .savoirfaire{

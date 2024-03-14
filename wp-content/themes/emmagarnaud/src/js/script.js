@@ -8,7 +8,6 @@ jQuery(document).ready(function($) {
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
-        autoplay: true,
         variableWidth: true,
         dots: true,
         arrows: true,
