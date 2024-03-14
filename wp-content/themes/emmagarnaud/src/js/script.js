@@ -6,7 +6,10 @@ jQuery(document).ready(function($) {
     $('.slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        autoplay: true,
+        variableWidth: true,
         dots: true,
         arrows: true,
         prevArrow: '<button type="button" class="slick-prev">avant</button>',
